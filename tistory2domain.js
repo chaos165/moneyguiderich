@@ -1,0 +1,8 @@
+/*
+ * 제작 : 머니가이드리치
+ * 적용방법 : https://moneyguiderich.com
+ * License : MIT
+ * Version : 2021-05-27
+ */
+
+!function(){function e(){if(window.location.hostname!=TistoryBlog.tistoryUrl.split("/")[2]){var e=document.querySelector('form[action*="/comment/add/"]'),t=e.parentNode,o=document.createElement("div"),n="";"object"==typeof ReactionReqBody?n=ReactionReqBody.entryId:window.location.pathname.indexOf("/guestbook")>-1&&(n=0),o.id="moneyguiderich-tistory2",o.innerHTML='<span>티스토리 로그인이 해제되었나요?</span><span><a href="https://www.tistory.com/auth/login/?redirectUrl='+encodeURIComponent(TistoryBlog.tistoryUrl+window.location.pathname+"#entry"+n+"Comment")+'" rel="noopener noreferrer">로그인</a>하여 댓글 남기러가기</span><a href="https://moneyguiderich.com/entry/%EA%B8%B0%ED%9A%8D%ED%8E%B8-%EA%B5%AC%EA%B8%80-SEO-%EC%99%84%EB%B2%BD-%EA%B0%80%EC%9D%B4%EB%93%9C-4%ED%8E%B8" target="_blank" rel="noopener" style="color: #fff;position: absolute;right: 0;background-color: #d2d2d2;width: 15px;font-size: 12px;top: 0;margin: 0;border-radius: 5px;line-height: 15px;z-index: 99999;" title="적용방법 : 제작 머니가이드리치">i</a><style>#moneyguiderich-tistory2{text-align:center;border:2px solid #ff9800;background:#fff3e0;padding:10px 0;color: #333;position: relative}#moneyguiderich-tistory2>span{margin: auto 3px;display:inline-block}</style>',t.insertBefore(o,e)}}document.querySelector('form[action*="/comment/add/"]')?e():document.addEventListener?document.addEventListener("DOMContentLoaded",function(){document.removeEventListener("DOMContentLoaded",arguments.callee,!1),e()},!1):document.attachEvent&&document.attachEvent("onreadystatechange",function(){"complete"==document.readyState&&(document.detachEvent("onreadystatechange",arguments.callee),e())})}();
